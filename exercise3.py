@@ -15,13 +15,13 @@ furlong_per_hour = yards_per_hour / 220.0
 furlong_per_day = 24.0 * furlong_per_hour
 feet_per_hour = 5280.0 * mph
 mach = (feet_per_hour / 60 / 60) / 1130.0
-psl = ((meters_per_hour / 60 / 60) / 299792458.0) * 100
+psl = ((meters_per_hour / 60 / 60) / 299792458.0)
 
 print "Original speed in mph is: %.1f" % mph
 print "Converted to barleycorn/day is: %.1f " % barleycorn_per_day
 print "Converted to furlongs/fortnight is: %.1f " % (furlong_per_day * 14)
-print "Converted to Mach number is : %f" % mach
-print "Converted to the percentage of the speed of light is: %g" % psl
+print "Converted to Mach number is : %s" % mach
+print "Converted to the percentage of the speed of light is: %s" % psl
 
 
 

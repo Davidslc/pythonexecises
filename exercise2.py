@@ -1,5 +1,10 @@
 # request user input for gallons
-gallons = float(raw_input("Please enter the number of gallons of gasoline: "))
+gallons = raw_input("Please enter the number of gallons of gasoline: ")
+
+while gallons.isalpha():
+    gallons = raw_input("Words don't work for me. Give me a number: ")
+
+gallons = float(gallons)
 
 # assign variables product values
 liters = 3.78541
