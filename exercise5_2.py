@@ -14,7 +14,7 @@ def remove_punctuation(word):
 
     return parsed_word
 
-file = open('exercise5_book.txt', 'r', encoding="utf-8-sig")
+file = open('bible.txt', 'r', encoding="utf-8-sig")
 
 
 word_count = {}
@@ -39,4 +39,4 @@ for key, value in sorted_list:
 
 file.close()
 print(file.closed)
-print(string.punctuation)
+#print(string.punctuation)
