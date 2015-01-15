@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fbb84a9-38a7-48cc-836c-c143c49f7bbd" name="Default" comment="" />
+    <list default="true" id="3fbb84a9-38a7-48cc-836c-c143c49f7bbd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="pythonexercises.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -68,14 +71,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise5_bible.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exercise5_bible.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise5_bible.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3621868" vertical-offset="96" max-vertical-offset="765">
+            <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="765">
               <caret line="17" column="81" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="81" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8291572" vertical-offset="476" max-vertical-offset="930">
+              <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,12 +124,12 @@
         <option value="$PROJECT_DIR$/Exercise1.py" />
         <option value="$PROJECT_DIR$/exercise2.py" />
         <option value="$PROJECT_DIR$/exercise3.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/exercise4.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/exercise5.py" />
         <option value="$PROJECT_DIR$/exercise5_2.py" />
         <option value="$PROJECT_DIR$/exercise5_bible.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1033,21 +1046,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79498863" vertical-offset="491" max-vertical-offset="930">
-          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise5_bible.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3621868" vertical-offset="96" max-vertical-offset="765">
+        <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="765">
           <caret line="17" column="81" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="81" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8291572" vertical-offset="476" max-vertical-offset="930">
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
