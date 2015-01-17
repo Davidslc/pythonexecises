@@ -25,17 +25,20 @@ def open_file(file_name):
         print("I can't find: " + file_name)
 
 def open_file_two(file_name_two):
+    print(file_name_two)
     with open(file_name_two, "r") as f_two:
                 print(f_two.read())
 
 # Try to open both files
+file_name = "exercise5_bok.txt"
 try:
-    open_file("bubble.txt")
-    open_file_two("exercise5_bok.txt")
-
+    open_file_two(file_name)
 # This handles an exception for open_file_two
 except FileNotFoundError:
     print("That isn't in this directory")
+
+open_file("bible.txt")
+
 
 
 

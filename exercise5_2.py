@@ -2,10 +2,11 @@ import string
 import operator
 import re
 
-
+# remove the punctuation except for the single quote
 def remove_punctuation(word):
     parsed_word = re.sub('[!"#$%&()\[\]*+,-./:;<=>?@\^_`{|}~]', '', word)
 
+# remove the single quote before and after a word
     if len(parsed_word) > 1:
         if parsed_word[0] == "'":
             parsed_word = parsed_word[1:]
