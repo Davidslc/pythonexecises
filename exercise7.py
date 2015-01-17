@@ -5,6 +5,7 @@ converts Celsius to Fahrenheit and visa versa for the cities in the dictionary a
 strings with the information
 """
 
+
 cities = {"Boston": "0 C", "Boise": "48 F", "Phoenix": "85 F", "Miami": "40 C", "Riverside": "30 C",
           "Baltimore": "32 F"}
 
