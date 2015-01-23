@@ -33,6 +33,6 @@ for num in range(0, 41):
     result2 = fib_helper(num)
     stop = clock()
     difference = (stop - start) * 1000  # clock returns a value in seconds.
-    print("fib_improved (%s) = %s taking %.1sms\n" % (num, result2, difference))
+    print("fib_improved (%s) = %s taking %.1fms\n" % (num, result2, difference))
 
 
