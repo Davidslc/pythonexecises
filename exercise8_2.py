@@ -1,4 +1,4 @@
-def replace_char(x, y, old_color, new_color):
+# def replace_char(x, y, old_color, new_color):
     
 
 l = []

@@ -35,9 +35,9 @@ try:
     open_file_two(file_name)
 # This handles an exception for open_file_two
 except FileNotFoundError:
-    print("That isn't in this directory")
+    print("That file isn't in this directory")
 
-open_file("bible.txt")
+open_file("bible2.txt")
 
 
 
