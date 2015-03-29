@@ -15,5 +15,5 @@ def sum2(nums):
     else:
         return sum(nums, 0)
 
-print(sum2([]))
+print(sum2([4, 4, 4]))
 
