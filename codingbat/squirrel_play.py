@@ -10,7 +10,10 @@ squirrel_play(95, True) → True
 
 
 def squirrel_play(temp, is_summer):
-    return temp >= 60 and temp <=90 or is_summer and temp >=60 and temp <= 100
+    high = 90
+    if is_summer is True:
+        high = 100
+    return temp <= high and temp >= 60
 
 print(squirrel_play(70, False))
 print(squirrel_play(95, False))
